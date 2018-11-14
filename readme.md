@@ -1,7 +1,5 @@
 # Virtual Router
 
-**Download: [http://virtualrouter.codeplex.com](http://virtualrouter.codeplex.com)**
-
 The original, open source Wifi Hotspot for Windows 7, Windows 8.x and Windows Server 2012 and newer!
 
 **What is Virtual Router?**
@@ -19,3 +17,5 @@ For previous releases, you can find those located within the `Release` folder in
 **Source Code**
 
 The source code for Virtual Router is located within the `Source` folder inside this repository.
+
+This project was originally hosted on CodePlex, and an archive of that original project is located here: <http://virtualrouter.codeplex.com>
