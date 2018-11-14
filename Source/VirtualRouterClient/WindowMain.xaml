@@ -1,0 +1,42 @@
+﻿<Window x:Class="VirtualRouterClient.WindowMain"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:VirtualRouterClient"
+    Title="Virtual Router Manager v1.0" Height="501" Width="592.668" MinWidth="449.955" MinHeight="421.776"
+    Icon="Icons/VirtualRouterDisabled.ico" ResizeMode="CanResizeWithGrip" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded">
+    <Grid>
+        
+        <Rectangle Name="windowContent" Margin="0,42.5,0,0" Fill="White"/>
+        
+        <GroupBox Header="Settings" Margin="12.726,48,11.274,0" Name="gbVirtualRouterSettings" Height="176" VerticalAlignment="Top">
+            <Grid Height="151">
+                <TextBox Margin="210,15,5,0" Name="txtSSID" FontSize="20" Height="37" VerticalAlignment="Top"></TextBox>
+                <TextBox Margin="210,58,6,0" Name="txtPassword" Text="" FontSize="20" Height="37" VerticalAlignment="Top"></TextBox>
+                <Label Margin="6,58,0,0" Name="label1" HorizontalAlignment="Left" Width="120" Height="36" VerticalAlignment="Top" FontSize="20">Password:</Label>
+                <Label HorizontalAlignment="Left" Margin="6,15,0,0" Name="label2" Width="208" Height="35" VerticalAlignment="Top" FontSize="20">Network Name (SSID):</Label>
+                <Label Margin="6,101,0,0" Name="label3" HorizontalAlignment="Left" Width="184" Height="38" VerticalAlignment="Top" FontSize="20">Shared Connection:</Label>
+                <ComboBox Margin="210,101,55,0" Name="cbSharedConnection" FontSize="20" Height="38" VerticalAlignment="Top" />
+                <Button Height="38" HorizontalAlignment="Right" Margin="0,0,6,12" ToolTip="Refresh Shared Connections" Name="btnRefreshSharableConnections" VerticalAlignment="Bottom" Width="43" Click="btnRefreshSharableConnections_Click">
+                    <Image Source="Icons/Refresh.ico"></Image>
+                </Button>
+            </Grid>
+        </GroupBox>
+        
+        <GroupBox Header="Connected Devices" Margin="12,273,12,38" Name="groupBoxPeersConnected">
+            <Grid>
+                <ScrollViewer>
+                    <WrapPanel Name="panelConnections"  />
+                </ScrollViewer>
+            </Grid>
+        </GroupBox>
+        <Button Margin="50,230,60,0" Name="btnToggleHostedNetwork" Height="37" VerticalAlignment="Top" Click="btnToggleHostedNetwork_Click" FontSize="20">Start Virtual Router</Button>
+        
+        <StatusBar Name="statusBar1" VerticalAlignment="Bottom" Height="31.815">
+            <StatusBarItem>
+                <Label Name="lblStatus"></Label>
+            </StatusBarItem>
+        </StatusBar>
+        <Label Height="50.904" Margin="49.995,-2.727,16.362,0" Name="label4" VerticalAlignment="Top" FontSize="25" FontWeight="Bold" Content="Virtual Router Manager v1.0"></Label>
+        <Image Height="32" Width="32"  HorizontalAlignment="Left" Margin="12.726,0,0,0" Name="imgIcon" Stretch="Fill" VerticalAlignment="Top" IsEnabled="True" Source="/VirtualRouterClient;component/Icons/VirtualRouterDisabled.ico" />
+    </Grid>
+</Window>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:ser="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:tns="http://schemas.datacontract.org/2004/07/VirtualRouterHost" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/VirtualRouterHost" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:31337/VirtualRouter/service?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:complexType name="SharableConnection">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DeviceName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Guid" type="ser:guid" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="SharableConnection" nillable="true" type="tns:SharableConnection" />
+  <xs:complexType name="ConnectionSettings">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="MaxPeerCount" type="xs:int" />
+      <xs:element minOccurs="0" name="SSID" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ConnectionSettings" nillable="true" type="tns:ConnectionSettings" />
+  <xs:complexType name="ArrayOfSharableConnection">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="SharableConnection" nillable="true" type="tns:SharableConnection" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfSharableConnection" nillable="true" type="tns:ArrayOfSharableConnection" />
+  <xs:complexType name="ArrayOfConnectedPeer">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ConnectedPeer" nillable="true" type="tns:ConnectedPeer" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfConnectedPeer" nillable="true" type="tns:ArrayOfConnectedPeer" />
+  <xs:complexType name="ConnectedPeer">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="MacAddress" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ConnectedPeer" nillable="true" type="tns:ConnectedPeer" />
+</xs:schema>

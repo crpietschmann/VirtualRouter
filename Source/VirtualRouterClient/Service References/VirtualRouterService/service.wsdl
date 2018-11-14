@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://VirtualRouter" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://VirtualRouter" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://VirtualRouter/Imports">
+      <xsd:import schemaLocation="http://localhost:31337/VirtualRouter/service?xsd=xsd0" namespace="http://VirtualRouter" />
+      <xsd:import schemaLocation="http://localhost:31337/VirtualRouter/service?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:31337/VirtualRouter/service?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/VirtualRouterHost" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IVirtualRouterHost_Start_InputMessage">
+    <wsdl:part name="parameters" element="tns:Start" />
+  </wsdl:message>
+  <wsdl:message name="IVirtualRouterHost_Start_OutputMessage">
+    <wsdl:part name="parameters" element="tns:StartResponse" />
+  </wsdl:message>
+  <wsdl:message name="IVirtualRouterHost_Stop_InputMessage">
+    <wsdl:part name="parameters" element="tns:Stop" />
+  </wsdl:message>
+  <wsdl:message name="IVirtualRouterHost_Stop_OutputMessage">
+    <wsdl:part name="parameters" element="tns:StopResponse" />
+  </wsdl:message>
+  <wsdl:message name="IVirtualRouterHost_SetConnectionSettings_InputMessage">
+    <wsdl:part name="parameters" element="tns:SetConnectionSettings" />
+  </wsdl:message>
+  <wsdl:message name="IVirtualRouterHost_SetConnectionSettings_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SetConnectionSettingsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IVirtualRouterHost_GetConnectionSettings_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetConnectionSettings" />
+  </wsdl:message>
+  <wsdl:message name="IVirtualRouterHost_GetConnectionSettings_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetConnectionSettingsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IVirtualRouterHost_GetSharableConnections_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetSharableConnections" />
+  </wsdl:message>
+  <wsdl:message name="IVirtualRouterHost_GetSharableConnections_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetSharableConnectionsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IVirtualRouterHost_SetPassword_InputMessage">
+    <wsdl:part name="parameters" element="tns:SetPassword" />
+  </wsdl:message>
+  <wsdl:message name="IVirtualRouterHost_SetPassword_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SetPasswordResponse" />
+  </wsdl:message>
+  <wsdl:message name="IVirtualRouterHost_GetPassword_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPassword" />
+  </wsdl:message>
+  <wsdl:message name="IVirtualRouterHost_GetPassword_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPasswordResponse" />
+  </wsdl:message>
+  <wsdl:message name="IVirtualRouterHost_IsStarted_InputMessage">
+    <wsdl:part name="parameters" element="tns:IsStarted" />
+  </wsdl:message>
+  <wsdl:message name="IVirtualRouterHost_IsStarted_OutputMessage">
+    <wsdl:part name="parameters" element="tns:IsStartedResponse" />
+  </wsdl:message>
+  <wsdl:message name="IVirtualRouterHost_GetConnectedPeers_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetConnectedPeers" />
+  </wsdl:message>
+  <wsdl:message name="IVirtualRouterHost_GetConnectedPeers_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetConnectedPeersResponse" />
+  </wsdl:message>
+  <wsdl:message name="IVirtualRouterHost_GetSharedConnection_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetSharedConnection" />
+  </wsdl:message>
+  <wsdl:message name="IVirtualRouterHost_GetSharedConnection_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetSharedConnectionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IVirtualRouterHost_GetLastError_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetLastError" />
+  </wsdl:message>
+  <wsdl:message name="IVirtualRouterHost_GetLastError_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetLastErrorResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IVirtualRouterHost">
+    <wsdl:operation name="Start">
+      <wsdl:input wsaw:Action="http://VirtualRouter/IVirtualRouterHost/Start" message="tns:IVirtualRouterHost_Start_InputMessage" />
+      <wsdl:output wsaw:Action="http://VirtualRouter/IVirtualRouterHost/StartResponse" message="tns:IVirtualRouterHost_Start_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Stop">
+      <wsdl:input wsaw:Action="http://VirtualRouter/IVirtualRouterHost/Stop" message="tns:IVirtualRouterHost_Stop_InputMessage" />
+      <wsdl:output wsaw:Action="http://VirtualRouter/IVirtualRouterHost/StopResponse" message="tns:IVirtualRouterHost_Stop_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SetConnectionSettings">
+      <wsdl:input wsaw:Action="http://VirtualRouter/IVirtualRouterHost/SetConnectionSettings" message="tns:IVirtualRouterHost_SetConnectionSettings_InputMessage" />
+      <wsdl:output wsaw:Action="http://VirtualRouter/IVirtualRouterHost/SetConnectionSettingsResponse" message="tns:IVirtualRouterHost_SetConnectionSettings_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetConnectionSettings">
+      <wsdl:input wsaw:Action="http://VirtualRouter/IVirtualRouterHost/GetConnectionSettings" message="tns:IVirtualRouterHost_GetConnectionSettings_InputMessage" />
+      <wsdl:output wsaw:Action="http://VirtualRouter/IVirtualRouterHost/GetConnectionSettingsResponse" message="tns:IVirtualRouterHost_GetConnectionSettings_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSharableConnections">
+      <wsdl:input wsaw:Action="http://VirtualRouter/IVirtualRouterHost/GetSharableConnections" message="tns:IVirtualRouterHost_GetSharableConnections_InputMessage" />
+      <wsdl:output wsaw:Action="http://VirtualRouter/IVirtualRouterHost/GetSharableConnectionsResponse" message="tns:IVirtualRouterHost_GetSharableConnections_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SetPassword">
+      <wsdl:input wsaw:Action="http://VirtualRouter/IVirtualRouterHost/SetPassword" message="tns:IVirtualRouterHost_SetPassword_InputMessage" />
+      <wsdl:output wsaw:Action="http://VirtualRouter/IVirtualRouterHost/SetPasswordResponse" message="tns:IVirtualRouterHost_SetPassword_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPassword">
+      <wsdl:input wsaw:Action="http://VirtualRouter/IVirtualRouterHost/GetPassword" message="tns:IVirtualRouterHost_GetPassword_InputMessage" />
+      <wsdl:output wsaw:Action="http://VirtualRouter/IVirtualRouterHost/GetPasswordResponse" message="tns:IVirtualRouterHost_GetPassword_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="IsStarted">
+      <wsdl:input wsaw:Action="http://VirtualRouter/IVirtualRouterHost/IsStarted" message="tns:IVirtualRouterHost_IsStarted_InputMessage" />
+      <wsdl:output wsaw:Action="http://VirtualRouter/IVirtualRouterHost/IsStartedResponse" message="tns:IVirtualRouterHost_IsStarted_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetConnectedPeers">
+      <wsdl:input wsaw:Action="http://VirtualRouter/IVirtualRouterHost/GetConnectedPeers" message="tns:IVirtualRouterHost_GetConnectedPeers_InputMessage" />
+      <wsdl:output wsaw:Action="http://VirtualRouter/IVirtualRouterHost/GetConnectedPeersResponse" message="tns:IVirtualRouterHost_GetConnectedPeers_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSharedConnection">
+      <wsdl:input wsaw:Action="http://VirtualRouter/IVirtualRouterHost/GetSharedConnection" message="tns:IVirtualRouterHost_GetSharedConnection_InputMessage" />
+      <wsdl:output wsaw:Action="http://VirtualRouter/IVirtualRouterHost/GetSharedConnectionResponse" message="tns:IVirtualRouterHost_GetSharedConnection_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLastError">
+      <wsdl:input wsaw:Action="http://VirtualRouter/IVirtualRouterHost/GetLastError" message="tns:IVirtualRouterHost_GetLastError_InputMessage" />
+      <wsdl:output wsaw:Action="http://VirtualRouter/IVirtualRouterHost/GetLastErrorResponse" message="tns:IVirtualRouterHost_GetLastError_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

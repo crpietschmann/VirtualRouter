@@ -1,0 +1,21 @@
+﻿<Window x:Class="VirtualRouterClient.PeerDeviceProperties"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Device Properties" Height="277" Width="513" ShowInTaskbar="False" WindowStartupLocation="CenterOwner" ResizeMode="NoResize">
+    <Grid>
+        <Image Margin="12,0,0,0" Name="imgDeviceIcon" Stretch="Fill" Height="48" VerticalAlignment="Top" HorizontalAlignment="Left" Width="48" />
+        <Label Height="48" Margin="66,0,12,0" Name="lblDisplayName" FontSize="24" FontWeight="Bold" VerticalAlignment="Top" ToolTip="DisplayName">DisplayName</Label>
+        
+        <Rectangle Name="windowContent" Margin="0,54,0,43" Fill="White" />
+        
+        <Label HorizontalAlignment="Left" Margin="12,145,0,0" Name="label1" Width="136" Height="37" VerticalAlignment="Top" FontSize="20">MAC Address:</Label>
+        <Label HorizontalAlignment="Left" Margin="12,102,0,0" Name="label2" Width="136" Height="37" VerticalAlignment="Top" FontSize="20">IP Address:</Label>
+        <Label HorizontalAlignment="Left" Margin="12,59.5,0,0" Name="label3" Width="136" Height="36" VerticalAlignment="Top" FontSize="20">Host Name:</Label>
+        <TextBox Margin="154,145,12,0" Name="txtMACAddress" Height="37" IsReadOnly="True" VerticalAlignment="Top" FontSize="20" />
+        <TextBox Margin="154,102,12,0" Name="txtIPAddress" Height="37" IsReadOnly="True" VerticalAlignment="Top" FontSize="20" />
+        <TextBox Margin="154,59.5,12,0" Name="txtHostName" Height="37" IsReadOnly="True" VerticalAlignment="Top" FontSize="20" />
+        
+        <Button Height="37" HorizontalAlignment="Right" Margin="0,0,12,0" Name="btnClose" VerticalAlignment="Bottom" Width="75" IsCancel="True" IsDefault="True" FontSize="20">_Close</Button>
+        <Button Height="37" Margin="0,0,113.043,0" Name="btnChangeIcon" VerticalAlignment="Bottom" Click="btnChangeIcon_Click" FontSize="20" HorizontalAlignment="Right" Width="161">Change _Icon...</Button>
+    </Grid>
+</Window>

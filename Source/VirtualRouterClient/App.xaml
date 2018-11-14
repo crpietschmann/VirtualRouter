@@ -1,0 +1,18 @@
+﻿<Application x:Class="VirtualRouterClient.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    StartupUri="WindowMain.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ImageSource x:Key="IconDefault">Icons/Computer.ico</ImageSource>
+            <ImageSource x:Key="IconCamera">Icons/Camera.ico</ImageSource>
+            <ImageSource x:Key="IconComputer">Icons/Computer.ico</ImageSource>
+            <ImageSource x:Key="IconDevice">Icons/Device.ico</ImageSource>
+            <ImageSource x:Key="IconIPhone">Icons/IPhone.ico</ImageSource>
+            <ImageSource x:Key="IconMacBookPro">Icons/MacBookPro.ico</ImageSource>
+            <ImageSource x:Key="IconMobilePhone">Icons/MobilePhone.ico</ImageSource>
+            <ImageSource x:Key="IconPrinter">Icons/Printer.ico</ImageSource>
+            <ImageSource x:Key="IconZune">Icons/Zune.ico</ImageSource>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

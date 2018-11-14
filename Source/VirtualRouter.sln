@@ -1,0 +1,144 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{309F2994-F1A4-452F-93C9-7E1CF78F30FA}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.txt = Readme.txt
+		TODO.txt = TODO.txt
+		VirtualRouter.jpg = VirtualRouter.jpg
+		VirtualRouter.pdn = VirtualRouter.pdn
+		VirtualRouterSetupBanner.jpg = VirtualRouterSetupBanner.jpg
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualRouterClient", "VirtualRouterClient\VirtualRouterClient.csproj", "{F88A9FF2-101B-467D-9E59-AB8C2A769C38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualRouter.ICS", "VirtualRouter.ICS\VirtualRouter.ICS.csproj", "{002ADBFD-5268-4562-810D-0625267A5673}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualRouter.Wlan", "VirtualRouter.Wlan\VirtualRouter.Wlan.csproj", "{056E8589-4E53-45CE-B682-6266886B718A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualRouterService", "VirtualRouterService\VirtualRouterService.csproj", "{6F665880-EA25-4386-AEB9-6583D301FDD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualRouterHost", "VirtualRouterHost\VirtualRouterHost.csproj", "{0C73FB89-0205-4F1A-9CA9-2DD0C5FB3A55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualRouterHostConsole", "VirtualRouterHostConsole\VirtualRouterHostConsole.csproj", "{EAC211E3-988C-4907-8F33-87B7A0354E6A}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "VirtualRouterInstaller", "VirtualRouterInstaller\VirtualRouterInstaller.vdproj", "{445CCB9F-1C2E-410D-8618-3B55EE28E362}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs03
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = VirtualRouter.ICS\\VirtualRouter.ICS.csproj
+		SccProjectName1 = VirtualRouter.ICS
+		SccLocalPath1 = VirtualRouter.ICS
+		SccProjectUniqueName2 = VirtualRouter.Wlan\\VirtualRouter.Wlan.csproj
+		SccProjectName2 = VirtualRouter.Wlan
+		SccLocalPath2 = VirtualRouter.Wlan
+		SccProjectUniqueName3 = VirtualRouterClient\\VirtualRouterClient.csproj
+		SccProjectName3 = VirtualRouterClient
+		SccLocalPath3 = VirtualRouterClient
+		SccProjectUniqueName4 = VirtualRouterHost\\VirtualRouterHost.csproj
+		SccProjectName4 = VirtualRouterHost
+		SccLocalPath4 = VirtualRouterHost
+		SccProjectUniqueName5 = VirtualRouterHostConsole\\VirtualRouterHostConsole.csproj
+		SccProjectName5 = VirtualRouterHostConsole
+		SccLocalPath5 = VirtualRouterHostConsole
+		SccProjectUniqueName6 = VirtualRouterInstaller\\VirtualRouterInstaller.vdproj
+		SccProjectName6 = VirtualRouterInstaller
+		SccLocalPath6 = VirtualRouterInstaller
+		SccProjectUniqueName7 = VirtualRouterService\\VirtualRouterService.csproj
+		SccProjectName7 = VirtualRouterService
+		SccLocalPath7 = VirtualRouterService
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		ClientDebug|Any CPU = ClientDebug|Any CPU
+		ClientDebug|x86 = ClientDebug|x86
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F88A9FF2-101B-467D-9E59-AB8C2A769C38}.ClientDebug|Any CPU.ActiveCfg = ClientDebug|Any CPU
+		{F88A9FF2-101B-467D-9E59-AB8C2A769C38}.ClientDebug|Any CPU.Build.0 = ClientDebug|Any CPU
+		{F88A9FF2-101B-467D-9E59-AB8C2A769C38}.ClientDebug|x86.ActiveCfg = ClientDebug|x86
+		{F88A9FF2-101B-467D-9E59-AB8C2A769C38}.ClientDebug|x86.Build.0 = ClientDebug|x86
+		{F88A9FF2-101B-467D-9E59-AB8C2A769C38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F88A9FF2-101B-467D-9E59-AB8C2A769C38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F88A9FF2-101B-467D-9E59-AB8C2A769C38}.Debug|x86.ActiveCfg = Debug|x86
+		{F88A9FF2-101B-467D-9E59-AB8C2A769C38}.Debug|x86.Build.0 = Debug|x86
+		{F88A9FF2-101B-467D-9E59-AB8C2A769C38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F88A9FF2-101B-467D-9E59-AB8C2A769C38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F88A9FF2-101B-467D-9E59-AB8C2A769C38}.Release|x86.ActiveCfg = Release|x86
+		{F88A9FF2-101B-467D-9E59-AB8C2A769C38}.Release|x86.Build.0 = Release|x86
+		{002ADBFD-5268-4562-810D-0625267A5673}.ClientDebug|Any CPU.ActiveCfg = ClientDebug|Any CPU
+		{002ADBFD-5268-4562-810D-0625267A5673}.ClientDebug|x86.ActiveCfg = ClientDebug|x86
+		{002ADBFD-5268-4562-810D-0625267A5673}.ClientDebug|x86.Build.0 = ClientDebug|x86
+		{002ADBFD-5268-4562-810D-0625267A5673}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{002ADBFD-5268-4562-810D-0625267A5673}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{002ADBFD-5268-4562-810D-0625267A5673}.Debug|x86.ActiveCfg = Debug|x86
+		{002ADBFD-5268-4562-810D-0625267A5673}.Debug|x86.Build.0 = Debug|x86
+		{002ADBFD-5268-4562-810D-0625267A5673}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{002ADBFD-5268-4562-810D-0625267A5673}.Release|Any CPU.Build.0 = Release|Any CPU
+		{002ADBFD-5268-4562-810D-0625267A5673}.Release|x86.ActiveCfg = Release|x86
+		{002ADBFD-5268-4562-810D-0625267A5673}.Release|x86.Build.0 = Release|x86
+		{056E8589-4E53-45CE-B682-6266886B718A}.ClientDebug|Any CPU.ActiveCfg = ClientDebug|Any CPU
+		{056E8589-4E53-45CE-B682-6266886B718A}.ClientDebug|x86.ActiveCfg = ClientDebug|x86
+		{056E8589-4E53-45CE-B682-6266886B718A}.ClientDebug|x86.Build.0 = ClientDebug|x86
+		{056E8589-4E53-45CE-B682-6266886B718A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{056E8589-4E53-45CE-B682-6266886B718A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{056E8589-4E53-45CE-B682-6266886B718A}.Debug|x86.ActiveCfg = Debug|x86
+		{056E8589-4E53-45CE-B682-6266886B718A}.Debug|x86.Build.0 = Debug|x86
+		{056E8589-4E53-45CE-B682-6266886B718A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{056E8589-4E53-45CE-B682-6266886B718A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{056E8589-4E53-45CE-B682-6266886B718A}.Release|x86.ActiveCfg = Release|x86
+		{056E8589-4E53-45CE-B682-6266886B718A}.Release|x86.Build.0 = Release|x86
+		{6F665880-EA25-4386-AEB9-6583D301FDD6}.ClientDebug|Any CPU.ActiveCfg = ClientDebug|Any CPU
+		{6F665880-EA25-4386-AEB9-6583D301FDD6}.ClientDebug|x86.ActiveCfg = ClientDebug|x86
+		{6F665880-EA25-4386-AEB9-6583D301FDD6}.ClientDebug|x86.Build.0 = ClientDebug|x86
+		{6F665880-EA25-4386-AEB9-6583D301FDD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F665880-EA25-4386-AEB9-6583D301FDD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F665880-EA25-4386-AEB9-6583D301FDD6}.Debug|x86.ActiveCfg = Debug|x86
+		{6F665880-EA25-4386-AEB9-6583D301FDD6}.Debug|x86.Build.0 = Debug|x86
+		{6F665880-EA25-4386-AEB9-6583D301FDD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F665880-EA25-4386-AEB9-6583D301FDD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F665880-EA25-4386-AEB9-6583D301FDD6}.Release|x86.ActiveCfg = Release|x86
+		{6F665880-EA25-4386-AEB9-6583D301FDD6}.Release|x86.Build.0 = Release|x86
+		{0C73FB89-0205-4F1A-9CA9-2DD0C5FB3A55}.ClientDebug|Any CPU.ActiveCfg = ClientDebug|Any CPU
+		{0C73FB89-0205-4F1A-9CA9-2DD0C5FB3A55}.ClientDebug|x86.ActiveCfg = ClientDebug|x86
+		{0C73FB89-0205-4F1A-9CA9-2DD0C5FB3A55}.ClientDebug|x86.Build.0 = ClientDebug|x86
+		{0C73FB89-0205-4F1A-9CA9-2DD0C5FB3A55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C73FB89-0205-4F1A-9CA9-2DD0C5FB3A55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C73FB89-0205-4F1A-9CA9-2DD0C5FB3A55}.Debug|x86.ActiveCfg = Debug|x86
+		{0C73FB89-0205-4F1A-9CA9-2DD0C5FB3A55}.Debug|x86.Build.0 = Debug|x86
+		{0C73FB89-0205-4F1A-9CA9-2DD0C5FB3A55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C73FB89-0205-4F1A-9CA9-2DD0C5FB3A55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C73FB89-0205-4F1A-9CA9-2DD0C5FB3A55}.Release|x86.ActiveCfg = Release|x86
+		{0C73FB89-0205-4F1A-9CA9-2DD0C5FB3A55}.Release|x86.Build.0 = Release|x86
+		{EAC211E3-988C-4907-8F33-87B7A0354E6A}.ClientDebug|Any CPU.ActiveCfg = ClientDebug|Any CPU
+		{EAC211E3-988C-4907-8F33-87B7A0354E6A}.ClientDebug|x86.ActiveCfg = ClientDebug|x86
+		{EAC211E3-988C-4907-8F33-87B7A0354E6A}.ClientDebug|x86.Build.0 = ClientDebug|x86
+		{EAC211E3-988C-4907-8F33-87B7A0354E6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAC211E3-988C-4907-8F33-87B7A0354E6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAC211E3-988C-4907-8F33-87B7A0354E6A}.Debug|x86.ActiveCfg = Debug|x86
+		{EAC211E3-988C-4907-8F33-87B7A0354E6A}.Debug|x86.Build.0 = Debug|x86
+		{EAC211E3-988C-4907-8F33-87B7A0354E6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAC211E3-988C-4907-8F33-87B7A0354E6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAC211E3-988C-4907-8F33-87B7A0354E6A}.Release|x86.ActiveCfg = Release|x86
+		{EAC211E3-988C-4907-8F33-87B7A0354E6A}.Release|x86.Build.0 = Release|x86
+		{445CCB9F-1C2E-410D-8618-3B55EE28E362}.ClientDebug|Any CPU.ActiveCfg = Debug
+		{445CCB9F-1C2E-410D-8618-3B55EE28E362}.ClientDebug|x86.ActiveCfg = Debug
+		{445CCB9F-1C2E-410D-8618-3B55EE28E362}.ClientDebug|x86.Build.0 = Debug
+		{445CCB9F-1C2E-410D-8618-3B55EE28E362}.Debug|Any CPU.ActiveCfg = Debug
+		{445CCB9F-1C2E-410D-8618-3B55EE28E362}.Debug|x86.ActiveCfg = Debug
+		{445CCB9F-1C2E-410D-8618-3B55EE28E362}.Debug|x86.Build.0 = Debug
+		{445CCB9F-1C2E-410D-8618-3B55EE28E362}.Release|Any CPU.ActiveCfg = Release
+		{445CCB9F-1C2E-410D-8618-3B55EE28E362}.Release|x86.ActiveCfg = Release
+		{445CCB9F-1C2E-410D-8618-3B55EE28E362}.Release|x86.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
