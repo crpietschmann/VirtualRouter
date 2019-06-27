@@ -23,3 +23,7 @@ To install Virtual Router, you will also need to have [.NET Framework 3.5](https
 The source code for Virtual Router is located within the `Source` folder inside this repository.
 
 This project was originally hosted on CodePlex, and an archive of that original project is located here: <http://virtualrouter.codeplex.com>
+
+**Disclaimer**
+
+This software is provided "as-is" without any warranty express or implied.
