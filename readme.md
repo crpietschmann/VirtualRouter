@@ -18,6 +18,29 @@ To install Virtual Router, you will also need to have [.NET Framework 3.5](https
 
 *For previous releases, you can find those located within the [`Release` folder](/Release) inside this repository.*
 
+**Support Open Source and Free Software by Donating!**
+
+[![](https://www.paypal.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=KBL4JKNQ9CXLN)
+
+**Where can Virtual Router be used?**
+
+Anywhere you are!
+
+Including:
+- Home
+- Office
+- School
+- Airport
+- Bus Station
+- The Park
+- Grandmas House
+- The In-Laws
+- Absolutely Anywhere!
+
+**No Advertising, No Hassle**
+
+Unlike similar applications, Virtual Router is not only completely Free, but will not annoy you with any advertisements. Also, since Virtual Router is not ad-supported, it does not track your web traffic the way other ad-supported applications do/can.
+
 **Source Code**
 
 The source code for Virtual Router is located within the `Source` folder inside this repository.
