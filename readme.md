@@ -16,7 +16,7 @@ Use the following link to download the installer for Virtual Router v1.0:
 
 To install Virtual Router, you will also need to have [.NET Framework 3.5](https://www.microsoft.com/net/download/dotnet-framework/net35-sp1) installed on your Windows computer.
 
-For previous releases, you can find those located within the `Release` folder inside this repository.
+For previous releases, you can find those located within the [`Release` folder](/Release) inside this repository.
 
 **Source Code**
 
