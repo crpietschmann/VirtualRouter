@@ -8,8 +8,6 @@ The original, open source Wifi Hotspot for Windows 7, Windows 8.x and Windows Se
 
 Virtual Router is a free, open source software based router for PCs running Windows 8, Windows 7 or Windows Server 2008 R2. Using Virtual Router, users can wirelessly share any internet connection (Wifi, LAN, Cable Modem, Dial-up, Cellular, etc.) with any Wifi device (Laptop, Smart Phone, iPod Touch, iPhone, Android Phone, Zune, Netbook, wireless printer, etc.) These devices connect to Virtual Router just like any other access point, and the connection is completely secured using WPA2 (the most secure wireless encryption.)
 
-![Virtual Router screenshot](screenshot.png "Virtual Router screenshot")
-
 ## Download / Install
 
 Use the following link to download the installer for Virtual Router v1.0:
@@ -19,6 +17,8 @@ Use the following link to download the installer for Virtual Router v1.0:
 To install Virtual Router, you will also need to have [.NET Framework 3.5](https://www.microsoft.com/net/download/dotnet-framework/net35-sp1) installed on your Windows computer.
 
 *For previous releases, you can find those located within the [`Release` folder](/Release) inside this repository.*
+
+![Virtual Router screenshot](screenshot.png "Virtual Router screenshot")
 
 ## Support Open Source and Free Software by Donating!
 
