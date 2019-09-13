@@ -2,8 +2,6 @@
 
 The original, open source Wifi Hotspot for Windows 7, Windows 8.x and Windows Server 2012 and newer!
 
-> Feel free to use Virtual Router as-is. The latest realesed version still works just fine. However, this project will no longer be updated. I'm Chris Pietschmann, the creator of Virtual Router, and I truly thank the **MILLIONS of users** for using Virtual Router over the years! Feel free to keep using Virtual Router where it provides value.
-
 ## What is Virtual Router?
 
 Virtual Router is a free, open source software based router for PCs running Windows 8, Windows 7 or Windows Server 2008 R2. Using Virtual Router, users can wirelessly share any internet connection (Wifi, LAN, Cable Modem, Dial-up, Cellular, etc.) with any Wifi device (Laptop, Smart Phone, iPod Touch, iPhone, Android Phone, Zune, Netbook, wireless printer, etc.) These devices connect to Virtual Router just like any other access point, and the connection is completely secured using WPA2 (the most secure wireless encryption.)
@@ -97,3 +95,5 @@ This software is provided "as-is" without any warranty express or implied.
 ## Project History
 
 This software was originally created in 2009 using Virtual Wifi features that were newly introduced in the Windows 7 operating system. There were a couple improvements and releases made to the software with the most recent release in 2013. This software works well for what it does, and what it was intended for. However, at this time the project is no longer being updated. Please use this software for what it does and what value it offers you. Just because there aren't new updates doesn't negate the benefits from working software that still solves a need people have. If you need to share your laptop or desktops Internet connection with your smartphone, tablet, or other device then this software will likely help you. Plus, it doesn't advertise or spy on you like other similar solution. It's extremely humbling to see this software be so helpful to **MILLIONS of users** over the years. And, people still use this software today, over 10 years after the first release! Thank you, and you are more than welcome!!
+
+> Feel free to use Virtual Router as-is. The latest realesed version still works just fine. However, this project will no longer be updated. I'm Chris Pietschmann, the creator of Virtual Router, and I truly thank the **MILLIONS of users** for using Virtual Router over the years! Feel free to keep using Virtual Router where it provides value.
