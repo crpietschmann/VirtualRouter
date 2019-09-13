@@ -2,7 +2,7 @@
 
 The original, open source Wifi Hotspot for Windows 7, Windows 8.x and Windows Server 2012 and newer!
 
-> Feel free to use Virtual Router as-is. The latest realesed version still works just fine. However, this project has been archived (and made read-only) as this project will no longer be updated. I'm Chris Pietschmann, the creator of Virtual Router, and I truly thank the MILLIONS of people for using Virtual Router over the years! Feel free to keep using Virtual Router where it provides value.
+> Feel free to use Virtual Router as-is. The latest realesed version still works just fine. However, this project will no longer be updated. I'm Chris Pietschmann, the creator of Virtual Router, and I truly thank the **MILLIONS of users** for using Virtual Router over the years! Feel free to keep using Virtual Router where it provides value.
 
 ## What is Virtual Router?
 
