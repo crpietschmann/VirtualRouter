@@ -12,7 +12,7 @@ _This application has had OVER 2 MILLION DOWNLOADS over the years. I am humbled 
 
 Use the following link to download the installer for Virtual Router v1.0:
 
-[Download Virtual Router v1.0](https://github.com/crpietschmann/VirtualRouter/raw/master/Release/1.0-Stable/VIrtualRouterInstaller.msi)
+[Download Virtual Router v1.0](https://github.com/crpietschmann/VirtualRouter/releases/download/v1.0/VIrtualRouterInstaller.msi)
 
 To install Virtual Router, you will also need to have [.NET Framework 3.5](https://www.microsoft.com/net/download/dotnet-framework/net35-sp1) installed on your Windows computer.
 
