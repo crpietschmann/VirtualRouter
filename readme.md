@@ -2,7 +2,7 @@
 
 The original, opecn source Wifi Hotspot for Windows 7, Windows 8.x and Windows Server 2012 and newer!
 
-_FYI, this project is no longer updates. However, the software will still work as-is. If you find it helpful, please use it._
+_FYI, this project is no longer being updated. However, the software will still work as-is. If you find it helpful, please use it._
 
 ## What is Virtual Router?
 
