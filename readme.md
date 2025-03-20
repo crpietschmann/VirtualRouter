@@ -22,10 +22,6 @@ _This application has had OVER 2 MILLION DOWNLOADS over the years. I am humbled 
 
 *For previous releases, you can find those located within the [`Release` folder](/Release) inside this repository.*
 
-## Support Open Source and Free Software by Donating!
-
-[![](https://www.paypal.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=KBL4JKNQ9CXLN)
-
 ## Where can Virtual Router be used?
 
 Anywhere you are!
