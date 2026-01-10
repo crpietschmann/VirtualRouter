@@ -1,4 +1,4 @@
-# Virtual Router
+# Virtual Router - Wifi Hotspot for Windows Computers
 
 Virtual Router is the original, free, open source Wifi Hotspot for Windows computers as a portable virtual router to share your Internet connection with all your devices. Using Virtual Router, users can wirelessly share any internet connection (Wifi, LAN, Cable Modem, Dial-up, Cellular, etc.) with any Wifi device (Laptop, Smart Phone, iPod Touch, iPhone, Android Phone, Zune, Netbook, wireless printer, etc.) These devices connect to Virtual Router just like any other access point, and the connection is completely secured using WPA2 (the most secure wireless encryption.)
 
